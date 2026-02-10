@@ -1,19 +1,24 @@
-# 🚀 FocusFlow
+# 🚀 FocusFlow: Modern Calendar & Task Management
 
-FocusFlow; hem mobil cihazlarda hem de web tarayıcılarında kusursuz çalışan, modern ve profesyonel bir **Görev & Not Yönetimi** uygulamasıdır.
+FocusFlow is a professional assistant app designed to help you manage your time effectively with an **interactive calendar-centric** approach.
 
-## ✨ Öne Çıkan Özellikler
+## 📅 Why FocusFlow?
+Unlike ordinary list apps, FocusFlow lets you visualize your tasks on a **timeline**. With the weekly calendar view, you can understand your daily workload at a single glance.
 
-* 📅 **Akıllı Takvim:** Hem parmak (touch) hem de mouse ile kaydırılabilir haftalık takvim sistemi.
-* ✅ **Görev Takibi:** Günlük görevler ekleyin, tamamlayın ve ilerleme barı ile motivasyonunuzu artırın.
-* 📝 **Profesyonel Notlar:** Önemli düşüncelerinizi anında kaydedin, zaman damgalı notlar oluşturun.
-* 🎉 **Özel Gün Hatırlatıcı:** Tatil ve bayramları takvim üzerinde özel renklerle görün.
-* 🌙 **Tam Uyumlu Tema:** Cihazınızın moduna göre otomatik değişen Light/Dark Mode desteği.
+## ✨ Key Features
+* 🗓️ **Interactive Weekly Calendar:** Fluid navigation between days with mouse and touch support.
+* ✅ **Task Management:** Add daily tasks, track progress, and boost motivation with a dynamic progress bar.
+* 📝 **Professional Notes & Sketching:** Quick timestamped notes and a built-in canvas for hand-drawn sketches.
+* 🎉 **Special Day Highlights:** Automatic recognition of holidays and special occasions.
+* 🌙 **Adaptive Theme:** Seamless transition between Light and Dark modes based on system settings.
 
-## 🛠️ Kurulum ve Kullanım
+## 🛠️ Installation & Usage
 
-Bu depo, uygulamanın çekirdek mantığını içeren `main.dart` dosyasını barındırmaktadır. 
+This repository contains the core logic in the `main.dart` file.
 
-1. Yeni bir Flutter projesi oluşturun.
-2. `lib/main.dart` dosyasının içeriğini bu depodaki kodla değiştirin.
-3. `pubspec.yaml` dosyanıza `intl` kütüphanesini eklemeyi unutmayın.
+1. Create a new Flutter project.
+2. Replace the contents of `lib/main.dart` with the code from this repo.
+3. Add the `intl` package to your `pubspec.yaml`:
+   ```yaml
+   dependencies:
+     intl: ^0.19.0
