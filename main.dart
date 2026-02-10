@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/gestures.dart'; // Mouse ve Touch desteği için gerekli
+import 'package:flutter/gestures.dart'; 
 import 'package:intl/intl.dart';
 
 void main() => runApp(const FocusFlowApp());
@@ -8,9 +8,9 @@ void main() => runApp(const FocusFlowApp());
 class MyCustomScrollBehavior extends MaterialScrollBehavior {
   @override
   Set<PointerDeviceKind> get dragDevices => {
-        PointerDeviceKind.touch, // Mobil parmak kontrolü
-        PointerDeviceKind.mouse, // Masaüstü/Web mouse sürükleme kontrolü
-        PointerDeviceKind.trackpad, // Touchpad kontrolü
+        PointerDeviceKind.touch, 
+        PointerDeviceKind.mouse, 
+        PointerDeviceKind.trackpad, 
       };
 }
 
@@ -21,7 +21,6 @@ class FocusFlowApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      // BURASI KRİTİK: Sisteme sürükleme desteğini burada enjekte ediyoruz.
       scrollBehavior: MyCustomScrollBehavior(), 
       theme: ThemeData(
         useMaterial3: true,
